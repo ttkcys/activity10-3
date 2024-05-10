@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background-color: white;
+    margin: 0 auto;
+    width: 600px;
+    border: 3px solid blue;
+    padding: 20px;
+}
+
+#tabs {
+    margin-top: 20px;
+}
+
+#tabs ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#tabs li {
+    display: inline;
+    margin-right: 5px;
+}
+
+#tabs a {
+    text-decoration: none;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-bottom: none;
+    background-color: #eee;
+}
+
+#tabs a:hover {
+    background-color: #f9f9f9;
+}
+
+#tabs a:focus, #tabs a:active {
+    background-color: #46538e;
+}
+
+#tabs div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    background-color: #fff;
+}
+
+#dialog p {
+    font-size: 85%;
+}
+.buttons {
+    display: flex;
+    align-items: flex-start; 
+    gap: 10px;
+}
+
+button {
+    margin: 0; 
+    padding: 5px 20px;
+}
+
